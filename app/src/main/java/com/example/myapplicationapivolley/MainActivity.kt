@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
         val cola = Volley.newRequestQueue(this)
         val url = "https://gorest.co.in/public/v1/users"
 
-        // Request a string response from the provided URL.
         val stringRequest = StringRequest(
             Request.Method.GET, url,
             Response.Listener<String> { response ->
